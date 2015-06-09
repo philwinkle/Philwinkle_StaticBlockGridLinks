@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Philwinkle_StaticBlockGridLinks>
+             <version>0.1.0</version>
+        </Philwinkle_StaticBlockGridLinks>
+    </modules>
+    <admin>
+    </admin>
+    <global>
+        <blocks>
+            <adminhtml>
+                <rewrite>
+                    <cms_block_grid>Philwinkle_StaticBlockGridLinks_Block_Cms_Block_Grid</cms_block_grid>
+                </rewrite>
+            </adminhtml>
+        </blocks>           
+    </global>
+</config>
