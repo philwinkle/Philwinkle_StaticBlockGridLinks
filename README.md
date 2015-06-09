@@ -12,4 +12,4 @@ Other admin grids in Magento provide an "Edit" or "View" link in a column (e.g. 
 
 This module adds the view link to the right-most column in your static block grid view. This allows you to control/command-click to open multiples in new tabs without navigating away from the current static block grid view.
 
-![static block grid view](http://i.imgur.com/rNYL8kN.png)
+![static block grid view](http://i.imgur.com/yGnrTQX.png)
