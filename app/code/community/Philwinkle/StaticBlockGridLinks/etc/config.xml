@@ -7,13 +7,16 @@
     </modules>
     <admin>
     </admin>
-    <global>
-        <blocks>
-            <adminhtml>
-                <rewrite>
-                    <cms_block_grid>Philwinkle_StaticBlockGridLinks_Block_Cms_Block_Grid</cms_block_grid>
-                </rewrite>
-            </adminhtml>
-        </blocks>           
-    </global>
+    <adminhtml>
+        <events>
+            <core_block_abstract_prepare_layout_before>
+                <observers>
+                    <philwinkle_staticblockgridlinks>
+                        <class>Philwinkle_StaticBlockGridLinks_Model_Observer</class>
+                        <method>coreBlockAbstractPrepareLayoutBefore</method>
+                    </philwinkle_staticblockgridlinks>
+                </observers>
+            </core_block_abstract_prepare_layout_before>
+        </events>
+    </adminhtml>
 </config>
