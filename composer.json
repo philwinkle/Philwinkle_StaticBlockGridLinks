@@ -1,0 +1,15 @@
+{
+    "name": "philwinkle/staticblockgridlinks",
+    "license": "MIT",
+    "type": "magento-module",
+    "description": "Adds a 'view' link to Magento static block grid in Adminhtml",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Phillip Jackson",
+            "email":"philwinkle@gmail.com"
+        }
+    ]
+}
